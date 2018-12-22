@@ -9,7 +9,7 @@ syn keyword logLevelErr ERR
 syn keyword logLevelFat FAT
 syn match logTime "^\[[0-9]\+-[0-9]\+:[0-9]\+:[0-9]\+.[0-9]\+\]" 
 syn match logMessage "- .* ---"me=e-3
-syn match Comment '--- \(main .*\|battle_thread.*\|scene_destory.*\|scene_creator.*\|Database.*\)' conceal
+syn match Comment '--- .*' conceal
 
 hi def link logLevelDbg Identifier
 hi def link logLevelInf Identifier
